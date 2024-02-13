@@ -1,2 +1,3 @@
-#!/bin/bash
-cat -n +3 iacta
+#!/bin/bas
+head -n 3 iacta | tail -n 1
+
