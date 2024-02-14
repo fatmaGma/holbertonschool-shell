@@ -1,2 +1,2 @@
 #!/bin/basih
-sort  | uniq
+uniq
