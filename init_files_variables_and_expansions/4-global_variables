@@ -1,2 +1,2 @@
 #!/bin/bash
-env | awk -F= '{print $1"="$2}'
+echo  "$(printenv | cut -d'=' -fi)=$({!printenv | cut -d'=' -fi})"
