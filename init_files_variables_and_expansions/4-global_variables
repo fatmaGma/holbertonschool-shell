@@ -1,2 +1,2 @@
 #!/bin/bash
-echo  "$(printenv | cut -d'=' -fi)=$({!printenv | cut -d'=' -fi})"
+./list_env_vars.sh
