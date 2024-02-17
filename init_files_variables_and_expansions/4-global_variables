@@ -1,2 +1,2 @@
 #!/bin/bash
-timeout 30 bash -c 'export HBTN=89 ; ./list_env_vars.sh | grep HBTN'
+printenv | cut -d'=' *
