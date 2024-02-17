@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv | cut -d'=' *
+echo "$printenv=${!printenv}"
